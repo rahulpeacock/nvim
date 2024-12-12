@@ -6,3 +6,5 @@ vim.g.loaded_perl_provider = 0
 
 -- Disable ruby provider (:checkhealth)
 vim.g.loaded_ruby_provider = 0
+
+vim.lsp.util.use_fswatch = true

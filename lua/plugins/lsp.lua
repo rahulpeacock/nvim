@@ -60,7 +60,6 @@ return {
 						},
 					},
 				},
-				html = {},
 				lua_ls = {
 					-- enabled = false,
 					single_file_support = true,
@@ -151,6 +150,7 @@ return {
 	},
 	{
 		"nvim-cmp",
+		disable = true,
 		dependencies = { "hrsh7th/cmp-emoji" },
 		opts = function(_, opts)
 			table.insert(opts.sources, { name = "emoji" })
